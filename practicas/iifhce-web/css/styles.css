@@ -1,0 +1,26 @@
+:root {
+    --color-iifhce-1 : #027368; /*principal*/
+    --color-iifhce-2 : #fff45e; 
+    --color-iifhce-3 : #3DBFB2; 
+    --color-coral-reef-3 : #cffffb; 
+    --color-coral-reef-5 : #323232; 
+  }
+
+footer {
+    background-color: var(--color-iifhce-1);
+}
+
+footer h4 {
+    color: var(--color-iifhce-2);
+    font-weight: bold;
+    border-bottom: 1px solid var(--color-iifhce-3);
+}
+
+footer p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}
+ footer a {
+     color: white;
+ }
