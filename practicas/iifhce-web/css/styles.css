@@ -4,7 +4,15 @@
     --color-iifhce-3 : #3DBFB2; 
     --color-coral-reef-3 : #cffffb; 
     --color-coral-reef-5 : #323232; 
-  }
+}
+
+nav {
+    background-color: var(--color-iifhce-1) !important;
+}
+
+nav img {
+    width: 220px;
+}
 
 footer {
     background-color: var(--color-iifhce-1);
