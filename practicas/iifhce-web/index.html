@@ -59,7 +59,33 @@
         </div>
     </nav>
     <!--End Header-->
-    
+
+    <!-- Carousel -->
+    <section class="carousel-container">
+        <div id="carouselHome" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/instituto1.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/instituto2.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="overlay">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-md-7 offset-md-5 text-center text-md-right">
+                        <h1>Bienvenidos al Instituto de Investigaciones</h1>
+                        <p class="d-none d-md-block">El Instituto de Investigaciones es un centro de gestión, producción y divulgación de conocimientos de la Facultad de Humanidades, que responde a demandas y necesidades de investigación de los actores sociales y la comunidad universitaria. Tiene como objetivo contribuir al logro del bienestar social y la búsqueda de soluciones a los problemas y necesidades sentidas de la realidad local, regional y nacional.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Carousel -->
+
     <footer class="pt-3 pb-3">
         <div class="container">
             <div class="row">
@@ -94,5 +120,13 @@
     </footer>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            $('.carousel').carousel({
+                interval: 2000,
+                pause: false,
+            })
+        })
+    </script>
 </body>
 </html>

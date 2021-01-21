@@ -17,3 +17,17 @@ ventajas de bs4
 
 Grilla
 para usar siempre debe estar en una clase "container"
+
+
+Footer
+
+
+Header
+
+
+Carrousel
+
+.carousel-inner img{
+    max.height: 70vh;
+    object-fit: cover;
+}
