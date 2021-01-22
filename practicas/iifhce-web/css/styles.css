@@ -6,6 +6,11 @@
     --color-coral-reef-5 : #323232; 
 }
 
+.btn-iifhce {
+    background-color: var(--color-iifhce-2);
+
+}
+
 nav {
     background-color: var(--color-iifhce-1) !important;
 }
