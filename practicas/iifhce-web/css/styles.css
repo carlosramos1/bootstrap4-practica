@@ -55,6 +55,11 @@ nav li a:hover + div{
     color: white;
 }
 
+.noticias .card .card-img-container {
+    max-height: 180px;
+    overflow: hidden;
+}
+
 footer {
     background-color: var(--color-iifhce-1);
 }
