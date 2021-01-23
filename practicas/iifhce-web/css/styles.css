@@ -8,7 +8,10 @@
 
 .btn-iifhce {
     background-color: var(--color-iifhce-2);
+}
 
+.text-iifhce-2 {
+    color: var(--color-iifhce-2);
 }
 
 nav {
